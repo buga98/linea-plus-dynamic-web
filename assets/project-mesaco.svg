@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#2A120D"/><stop offset="1" stop-color="#080605"/></linearGradient><radialGradient id="r" cx="0" cy="0" r="1" gradientTransform="translate(1180 300) rotate(130) scale(620)"><stop stop-color="#E75D35" stop-opacity=".65"/><stop offset="1" stop-color="#E75D35" stop-opacity="0"/></radialGradient></defs>
+<rect width="1600" height="1000" fill="url(#g)"/><rect width="1600" height="1000" fill="url(#r)"/>
+<g opacity=".15" stroke="#fff"><path d="M0 140H1600"/><path d="M0 860H1600"/><path d="M180 0V1000"/><path d="M1420 0V1000"/></g>
+<text x="105" y="105" fill="#FFF7F0" font-family="Arial" font-size="42" font-weight="700">MESACO</text>
+<g fill="#FFF7F0" font-family="Arial"><text x="105" y="335" font-size="28" letter-spacing="5">DOMAĆA KVALITETA</text><text x="100" y="470" font-size="116" font-weight="700">Okus koji</text><text x="100" y="590" font-size="116" font-weight="700" font-style="italic" fill="#FF6840">ima priču.</text></g>
+<rect x="105" y="670" width="220" height="66" rx="33" fill="#FF6840"/><text x="153" y="713" fill="#1A0905" font-family="Arial" font-size="20" font-weight="700">ISTRAŽI PONUDU</text>
+<g transform="translate(970 168)"><ellipse cx="260" cy="350" rx="268" ry="320" fill="#1B0A07"/><ellipse cx="260" cy="350" rx="210" ry="258" fill="#3A160F"/><path d="M74 420C173 214 298 129 467 117C389 242 308 351 74 420Z" fill="#CF472A"/><path d="M105 505C237 406 356 347 491 366C359 493 235 533 105 505Z" fill="#FF7A52"/><circle cx="356" cy="247" r="32" fill="#FFE2C8"/><circle cx="251" cy="409" r="21" fill="#FFD0A8"/></g>
+<text x="1110" y="905" fill="#FFF7F0" font-family="Arial" font-size="18" letter-spacing="3">WEB + MINI CMS</text>
+</svg>

@@ -1,0 +1,26 @@
+Linea+ namjerno koristi samo postojeće kolekcije centralnog Dynamic Web Startera.
+Zbog toga nisu potrebna nova Firestore pravila za dodatne kolekcije.
+
+projects/{SITE_ID}/news
+  contentType = settings  -> glavni tekstovi i kontakt
+  contentType = menu      -> dinamički meni
+  contentType = service   -> usluge
+  contentType = process   -> proces rada
+  contentType = review    -> recenzije
+
+projects/{SITE_ID}/products
+  Linea+ portfolio projekti
+
+projects/{SITE_ID}/gallery
+  galerija webova i mobilnih prikaza
+
+projects/{SITE_ID}/inquiries
+  upiti iz kontakt forme
+
+projects/{SITE_ID}/admins/{uid}
+  ovlasti admin/editor iz Buildera
+
+Upload originalnih slika ide u Firebase Storage:
+
+uploads/{SITE_ID}/portfolio/...
+uploads/{SITE_ID}/gallery/...

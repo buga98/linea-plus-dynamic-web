@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 190" role="img" aria-labelledby="title desc">
+  <title id="title">Linea+ Dev</title><desc id="desc">Linea Plus development</desc>
+  <defs><linearGradient id="blue" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#20b7ff"/><stop offset=".6" stop-color="#087cff"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
+  <path d="M35 31v110M35 31h43v89h30" fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M62 60v76h548" fill="none" stroke="url(#blue)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="132" y="113" font-family="Inter, Arial, sans-serif" font-size="96" font-weight="700" letter-spacing="-4" fill="#ffffff">Linea</text>
+  <text x="548" y="113" font-family="Inter, Arial, sans-serif" font-size="98" font-weight="650" fill="#087cff">+</text>
+  <g transform="translate(622 104)" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M0 22 18 8M0 22l18 14M46 8l18 14-18 14M37 0 27 44"/><path d="M83 22h23"/></g>
+  <text x="518" y="177" font-family="Inter, Arial, sans-serif" font-size="37" font-weight="500" letter-spacing="15" fill="#b9d8ff">DEV</text>
+</svg>

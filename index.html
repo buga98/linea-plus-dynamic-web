@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#061527" />
+  <meta name="description" content="Linea+ izrađuje custom web stranice, web aplikacije i mobilna digitalna rješenja bez generičkih predložaka." />
+  <meta property="og:title" content="Linea+ — Custom webovi i aplikacije" />
+  <meta property="og:description" content="Digitalni proizvodi koji izgledaju ozbiljno, rade brzo i prodaju jasnije." />
+  <meta property="og:image" content="assets/icon-512.png" />
+  <title>Linea+ — Custom webovi i aplikacije</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Linea+ početna">
+      <img src="assets/logo-wordmark-light.svg" alt="Linea+ Dev" width="156" height="38" />
+    </a>
+
+    <nav class="desktop-nav" aria-label="Glavna navigacija">
+      <div id="desktop-menu"></div>
+    </nav>
+
+    <a class="header-cta magnetic" href="#kontakt">
+      <span>Pokrenimo projekt</span><i aria-hidden="true">↗</i>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Otvori izbornik" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <aside class="mobile-panel" aria-hidden="true">
+    <div class="mobile-menu" id="mobile-menu"></div>
+    <a class="mobile-panel-cta" href="#kontakt">Pokrenimo projekt <span>↗</span></a>
+  </aside>
+
+  <main>
+    <section class="hero section-dark" id="naslovnica">
+      <div class="hero-glow glow-a"></div>
+      <div class="hero-glow glow-b"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <div class="hero-copy">
+        <div class="eyebrow reveal-up"><span></span><b id="hero-eyebrow">Custom webovi i aplikacije bez kompromisa</b></div>
+        <h1 class="hero-title" aria-label="Linea+ custom webovi i aplikacije">
+          <span class="title-line"><span id="hero-line-1">Ne radimo samo web.</span></span>
+          <span class="title-line accent-line"><span id="hero-accent">Gradimo razlog</span></span>
+          <span class="title-line"><span id="hero-line-3">da vas zapamte.</span></span>
+        </h1>
+        <p class="hero-lead reveal-up" id="hero-lead">Custom web stranice i aplikacije koje pretvaraju prvi pogled u ozbiljan poslovni dojam — i klik u stvaran upit.</p>
+        <div class="hero-actions reveal-up">
+          <a href="#portfolio" class="button button-primary magnetic"><span>Pogledaj radove</span><i>↓</i></a>
+          <a href="#usluge" class="button button-ghost"><span>Što radimo</span><i>↗</i></a>
+        </div>
+        <div class="hero-proof reveal-up">
+          <div><strong>100%</strong><span>custom pristup</span></div>
+          <div><strong>0</strong><span>generičkih predložaka</span></div>
+          <div><strong>∞</strong><span>prostora za ideje</span></div>
+        </div>
+      </div>
+
+      <div class="hero-stage" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <img class="hero-brand-watermark" src="assets/logo-mark.png" alt="" />
+        <div class="floating-tag tag-one">CUSTOM UI</div>
+        <div class="floating-tag tag-two">FAST + FLUID</div>
+        <div class="floating-tag tag-three">BUILT TO SELL</div>
+        <div class="device-scene">
+          <div class="browser-device glass-card">
+            <div class="browser-bar"><span></span><span></span><span></span><em>linea-plus.hr</em></div>
+            <div class="browser-screen">
+              <div class="screen-nav"><b>LINEA+</b><span></span><span></span><span></span></div>
+              <div class="screen-hero">
+                <small>IDEA → IMPACT</small>
+                <strong>Digital that<br /><i>hits different.</i></strong>
+                <p></p><p></p>
+                <button>Start a project ↗</button>
+              </div>
+              <div class="screen-cards"><span></span><span></span><span></span></div>
+            </div>
+          </div>
+          <div class="phone-device glass-card">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <img class="phone-logo-image" src="assets/logo-mark.png" alt="" />
+              <div class="phone-kicker">CUSTOM DIGITAL</div>
+              <div class="phone-heading">Made to<br /><i>move.</i></div>
+              <div class="phone-pill">Explore ↓</div>
+              <div class="phone-orb"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true"><span>SCROLL TO EXPLORE</span><i></i></div>
+    </section>
+
+    <section class="manifesto section-light" id="o-nama">
+      <div class="manifesto-label reveal-up">01 / Zašto Linea+</div>
+      <div class="manifesto-content">
+        <p class="manifesto-kicker reveal-up" id="about-kicker">Vaš digitalni nastup ne smije izgledati kao još jedan u nizu.</p>
+        <h2 class="manifesto-title split-reveal"><span id="about-before">Dobar web objasni što radite.</span> <em id="about-accent">Brutalan web</em> <span id="about-after">učini da ljudi požele raditi baš s vama.</span></h2>
+        <div class="manifesto-bottom">
+          <p class="reveal-up" id="about-text">Linea+ spaja strategiju, dizajn i razvoj u jedno jasno iskustvo. Bez kupljenih tema, bez vizualne buke i bez “može proći”. Svaki detalj ima razlog — od prvog scrolla do zadnjeg poziva na akciju.</p>
+          <div class="signature-mark reveal-up"><img src="assets/logo-mark.png" alt="Linea+" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section-dark" id="usluge">
+      <div class="section-heading">
+        <div>
+          <span class="section-index reveal-up">02 / Rješenja</span>
+          <h2 class="reveal-up">Od ideje do proizvoda<br />koji radi <em>ozbiljno.</em></h2>
+        </div>
+        <p class="reveal-up">Nema paketa koji vas guraju u kalup. Gradimo ono što vašem poslu stvarno treba.</p>
+      </div>
+      <div class="service-grid" id="services-grid"></div>
+    </section>
+
+    <section class="process section-accent" id="proces">
+      <div class="process-sticky">
+        <span class="section-index">03 / Kako radimo</span>
+        <h2>Bez kaosa.<br /><em>Jasan proces.</em></h2>
+        <p>Vi znate svoj posao. Mi znamo kako ga pretvoriti u digitalno iskustvo koje ljudi razumiju, pamte i koriste.</p>
+      </div>
+      <div class="process-list" id="process-list"></div>
+    </section>
+
+    <section class="portfolio section-dark" id="portfolio">
+      <div class="portfolio-intro">
+        <span class="section-index reveal-up">04 / Portfolio aplikacija</span>
+        <h2 class="reveal-up">Nije samo lijepo.<br /><em>To je proizvod.</em></h2>
+        <p class="reveal-up">Od prodajnih webova do internih sustava i aplikacija — svaki projekt rješava konkretan problem.</p>
+      </div>
+      <div class="portfolio-story" id="portfolio-story"></div>
+    </section>
+
+    <section class="showcase section-light" id="galerija">
+      <div class="section-heading light-heading">
+        <div>
+          <span class="section-index reveal-up">05 / Web showcase</span>
+          <h2 class="reveal-up">Desktop ozbiljnost.<br /><em>Mobilni wow.</em></h2>
+        </div>
+        <p class="reveal-up">Prvi dojam mora biti isti na velikom monitoru i u ruci korisnika.</p>
+      </div>
+      <div class="showcase-track" id="gallery-track"></div>
+    </section>
+
+    <section class="reviews section-dark" id="recenzije">
+      <div class="reviews-head">
+        <span class="section-index reveal-up">06 / Recenzije</span>
+        <h2 class="reveal-up">Rezultat se najbolje vidi<br />u riječima <em>klijenata.</em></h2>
+      </div>
+      <div class="reviews-grid" id="reviews-grid"></div>
+    </section>
+
+    <section class="cta-section section-dark" id="kontakt">
+      <div class="cta-orb" aria-hidden="true"></div>
+      <div class="cta-content">
+        <span class="section-index reveal-up">07 / Vaš potez</span>
+        <h2 class="reveal-up"><span id="contact-before">Imate ideju?</span><br /><em id="contact-accent">Napravimo da izgleda veliko.</em></h2>
+        <p class="reveal-up" id="contact-text">Pošaljite nekoliko rečenica o projektu. Javljamo se s konkretnim smjerom, bez prodajnih magli.</p>
+        <form class="contact-form reveal-up" id="contact-form">
+          <label><span>Ime i prezime</span><input name="name" type="text" autocomplete="name" required placeholder="Kako se zovete?" /></label>
+          <label><span>Email</span><input name="email" type="email" autocomplete="email" required placeholder="vas@email.hr" /></label>
+          <label><span>Telefon</span><input name="phone" type="tel" autocomplete="tel" placeholder="Opcionalno" /></label>
+          <label><span>Tip projekta</span><select name="type"><option value="web">Custom web stranica</option><option value="web-app">Web aplikacija</option><option value="mobile-app">Mobilna aplikacija</option><option value="redesign">Redizajn / optimizacija</option><option value="other">Nešto drugo</option></select></label>
+          <label class="full"><span>Što gradimo?</span><textarea name="message" required rows="5" placeholder="Opišite ideju, cilj ili problem koji želite riješiti."></textarea></label>
+          <button class="button button-primary magnetic" type="submit"><span>Pošalji upit</span><i>↗</i></button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </div>
+      <div class="contact-aside reveal-up">
+        <div class="aside-label">DIREKTAN KONTAKT</div>
+        <a id="contact-email" href="mailto:info@linea-plus.hr">info@linea-plus.hr <span>↗</span></a>
+        <a id="contact-phone" class="contact-phone" href="tel:+385990000000">+385 99 000 0000 <span>↗</span></a>
+        <div class="contact-meta"><span id="contact-location">Hrvatska / radimo lokalno i remote</span><span>Custom dizajn • čist kod • Mini CMS</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <img src="assets/logo-wordmark-light.svg" alt="Linea+ Dev" width="156" height="38" />
+      <p>Custom webovi, aplikacije i digitalna iskustva koja ostavljaju trag.</p>
+      <a href="#top">Natrag na vrh ↑</a>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="current-year"></span> Linea+. Sva prava pridržana.</span>
+      <span id="cms-status">SITE_ID: linea-plus-nqq7d</span>
+      <a class="admin-link" href="admin/">Admin</a>
+    </div>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

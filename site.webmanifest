@@ -1,0 +1,13 @@
+{
+  "name": "Linea+ Dev",
+  "short_name": "Linea+",
+  "description": "Custom web stranice i aplikacije bez kompromisa.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06101d",
+  "theme_color": "#061527",
+  "icons": [
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
